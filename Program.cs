@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+namespace Okosotthon;
+
+// A program belépési pontja: létrehozza a központot, és csatlakoztatja az eszközöket.
+public class Program
+{
+    private static void Main(string[] args)
+    {
+        OkosotthonKozpont kozpont = new OkosotthonKozpont();
+        kozpont.OsszesCsatlakoztatasa();
+    }
+}

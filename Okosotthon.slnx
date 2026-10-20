@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Okosotthon.csproj" />
+  <Project Path="Okosotthon.Tests/Okosotthon.Tests.csproj" />
+</Solution>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- A mappán belül lévő tesztprojekt fájljait nem fordítjuk bele a programba. -->
+  <ItemGroup>
+    <None Remove="Okosotthon.Tests\**" />
+    <Compile Remove="Okosotthon.Tests\**" />
+  </ItemGroup>
+
+</Project>
